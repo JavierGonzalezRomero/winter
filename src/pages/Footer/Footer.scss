@@ -1,0 +1,23 @@
+.footer{
+    height:15vh;
+    width: 95vw;
+    
+    font-size: 50px;
+    position: absolute;
+    bottom:0px;
+
+    
+    a{
+        color: white;
+        text-decoration:none;
+    }
+    .active{
+        text-decoration:underline;
+    }
+    
+}
+.footer-flex{
+    
+    display: flex;
+    justify-content: space-around
+}

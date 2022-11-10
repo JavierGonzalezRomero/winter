@@ -1,0 +1,16 @@
+{
+    "Footer":{
+        "Characters": "CHARACTERS",
+        "Houses": "HOUSES",
+        "Chronology": "CRONOLOGY"  
+    },
+    "Details":{
+        "House":"HOUSES",
+        "Allegiances": "ALLEGIANCES",
+        "Appearances":"APPEARANCES",
+        "Father":"FATHER",
+        "Siblings":"SIBLINGS",
+        "Titles":"TITLES"
+    }
+
+}
