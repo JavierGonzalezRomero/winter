@@ -1,0 +1,16 @@
+{
+    "Footer":{
+        "Characters": "CARACTERES",
+        "Houses": "CASAS",
+        "Chronology": "CRONOLOGIA"        
+    },
+    "Details":{
+        "House":"CASA",
+        "Allegiances": "ALIANZAS",
+        "Appearances":"APARICONES",
+        "Father":"PADRE",
+        "Siblings":"DESCENDIENTE",
+        "Titles":"TITULOS"
+    }
+
+}
