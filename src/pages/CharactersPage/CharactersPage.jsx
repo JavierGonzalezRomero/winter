@@ -49,7 +49,7 @@ useEffect(() =>{
 
           <input className='form-control' value={busqueda} type="text"
           placeholder="Busqueda por nombre" onChange={handleChange}></input>       
-          <button className='boton'>Buscar</button>
+          
       </div>
 
        <button className='casa' onClick={() => navigate("/")}><img className='casalogo' src= "https://static.thenounproject.com/png/391821-200.png" alt=""></img></button>
@@ -61,15 +61,18 @@ useEffect(() =>{
           
           return (
             <>
-            
+            { item.name === '"Black Walder" Frey' || item.name === 'Roslin Frey' || item.name === 'Oberyn Martell'
+            || item.name === 'Grenn' || item.name === 'Mossador' || item.name === 'Kinvara'
+            ? <></> : 
              <div className='card' key = {index}>
                   
                 <p className='text'>{item.name}</p>                       
                 <Link to={`/characters/${item.name}`}>
-                <img src={item.image} alt="" ></img></Link>
+                <img  src={item.image} alt="" ></img></Link>
                 </div>  
-              
+              }
               </>
+            
           );
           
         })}
