@@ -6,26 +6,31 @@
 
 .card{
     height:320px ;
-    width: 12%;
-    margin-top: 24px;
+    width: 14%;
     padding-top:2.5%;
-    padding-left:2.5%;
+    padding-left:30px;
     min-width: 250px;
     img{
         height: 320px;
-        width: auto;
+        width: 250px;
     }
-    p{
-       display:none; 
-      
-       
-    }
-    .card img:hover  .text{
-        display: block;
-        z-index: 100;
-    } 
+    .text{
+        font-size: 30px;
+        color:transparent;
+        position: relative;
+        bottom: -300px;
+    }  
     
+    
+    }
+    .card:hover{ 
+        .text{
+        color: white; 
+        background-color: black;
+    }
+
 }
+    
 
 .dady{
 display: flex;
@@ -63,6 +68,7 @@ height: 60vh;
     position: absolute;
     top: 50px;
     right: 550px;
+    background-color: black;
    
     .casalogo{
         width: 50px;
