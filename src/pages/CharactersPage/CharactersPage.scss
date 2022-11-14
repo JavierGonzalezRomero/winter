@@ -5,20 +5,21 @@
 
 
 .card{
-    height:320px ;
-    width: 14%;
-    padding-top:2.5%;
-    padding-left:30px;
+    height:420px ;
+    width: 18%;
+    padding-top:2.5%;    
     min-width: 250px;
     img{
-        height: 320px;
-        width: 250px;
+        height: 420px;
+        width: 80%;
+        min-height: 420px;
     }
     .text{
-        font-size: 30px;
+        font-size: 40px;
         color:transparent;
         position: relative;
         bottom: -300px;
+        bottom: -465px;
     }  
     
     
@@ -27,8 +28,9 @@
         .text{
         color: white; 
         background-color: black;
+        opacity: 70%;        
     }
-
+   
 }
     
 
@@ -49,6 +51,8 @@ height: 60vh;
         width: 600px;
         height: 45px;
         font-size: 30px;
+        background-color: black;
+        color: white;
        
 
     }
