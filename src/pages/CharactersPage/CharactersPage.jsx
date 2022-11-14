@@ -48,7 +48,7 @@ useEffect(() =>{
        <div className='Buscador'>
 
           <input className='form-control' value={busqueda} type="text"
-          placeholder="Busqueda por nombre" onChange={handleChange}></input>       
+          placeholder="🔎 Busqueda por nombre" onChange={handleChange}></input>       
           
       </div>
 
