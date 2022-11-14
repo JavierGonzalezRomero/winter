@@ -9,6 +9,7 @@
     width: 18%;
     padding-top:2.5%;    
     min-width: 250px;
+    
     img{
         height: 420px;
         width: 80%;
@@ -20,6 +21,7 @@
         position: relative;
         bottom: -300px;
         bottom: -465px;
+        
     }  
     
     
@@ -28,7 +30,8 @@
         .text{
         color: white; 
         background-color: black;
-        opacity: 70%;        
+        opacity: 70%;   
+        font-family: 'GameofThrones';     
     }
    
 }

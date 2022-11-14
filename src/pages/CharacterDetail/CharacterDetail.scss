@@ -11,15 +11,23 @@
 }
 .mitad-superior{
     height: 30vh;
+    font-family: 'GameofThrones';
+    
     img{
         width: 250px;
         height: 350px;
+        
     }
 }
 .mitad-inferior{
     display: flex;
     justify-content: space-around;
     height: 30vh;
+    h1{
+        font-family: 'GameofThrones';  
+    }
+    
+    
     .simplebar-vertical{
         right:-15px  !important; 
     }
