@@ -1,0 +1,52 @@
+/* @font-face {
+    font-family: "gotFont";
+    src: url(../../assets/fonts/Game\ of\ Thrones.ttf);
+  } */
+
+.b-container {
+    background-color: #000000;
+    color: white;
+    font-size: 150%;
+    font-family: 'gotFont';
+    text-decoration: none;
+}
+
+.b-container__asc-dsc-button {
+  height: 50px;
+  width: 50px;
+  color: white;
+  border: 2px solid white;
+  background: none;
+  border-radius: 50%;
+}
+
+.b-container__image {
+  border: 2px solid rgb(198, 198, 198);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.b-container__character-cards:nth-of-type(2n) {
+ width: 20%;
+ height: 20%;
+}
+
+.b-container__character-cards {
+  padding-left: 27%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
