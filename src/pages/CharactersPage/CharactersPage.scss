@@ -1,0 +1,106 @@
+
+.simplebar-vertical{
+    right:120px  !important; 
+}
+
+
+.card{
+    height:420px ;
+    width: 18%;
+    padding-top:2.5%;    
+    min-width: 250px;
+    
+    img{
+        height: 420px;
+        width: 80%;
+        min-height: 420px;
+    }
+    .text{
+        font-size: 40px;
+        color:transparent;
+        position: relative;
+        bottom: -300px;
+        bottom: -465px;
+        
+    }  
+    
+    
+    }
+    .card:hover{ 
+        .text{
+        color: white; 
+        background-color: black;
+        opacity: 70%;   
+        font-family: 'GameofThrones';     
+    }
+   
+}
+    
+
+.dady{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 60vh;
+
+
+
+}
+.Buscador{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    Input{
+        width: 600px;
+        height: 45px;
+        font-size: 30px;
+        background-color: black;
+        color: white;
+       
+
+    }
+
+    button{
+        
+        width: 80px;
+        height: 50px;
+        font-size: 20px;
+             
+        
+    }
+}
+.casa{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 50px;
+    right: 550px;
+    background-color: black;
+   
+    .casalogo{
+        width: 50px;
+        height: 50px;
+        -webkit-filter: invert(100%);     filter: invert(100%);
+        background-color:white;
+    }
+    
+   
+}
+.Box{
+    display: flex;
+    overflow: auto;
+
+}
+
+.simplebar-scrollbar{
+    visibility: visible;
+    color: white;
+    background: aliceblue;
+    
+}
+.simplebar-vertical{
+    visibility: visible;
+    background-color: white;
+    right: 110px;
+}
+
